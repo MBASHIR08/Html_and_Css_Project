@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  background-color: blue;
+}
+
+.container {
+   width: 960px;
+   margin: 0 auto;
+    height: 80px;
+  background: rgba(94, 102, 111, 0.3);
+  z-index: 111111;
+}
+
+
+.container, #bg-video {
+    background-position: center;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 95%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(35, 45, 57, 0.7);
+  color: white;
+  height: 125px;
+
+  z-index: 111;
+}
+
+.header-section ul {
+  display: flex;
+  margin-right: 100px;
+}
+
+.header-section ul li {
+  list-style-type: none;
+}
+.header-section ul li a {
+  text-decoration: none;
+  margin: 0px 40px;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.home-color{
+    color: #ed563b !important;
+   
+}
+
+.SignUp {
+  background-color: #ed563b;
+  margin-right: 140px;
+  padding: 20px 30px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.logo {
+  margin-left: 50px;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.logo2 {
+  color: #ed563b;
+}
+
+.content-section {
+  top: 100px;
+  height: 100vh;
+  background-color: rgba(35, 45, 57, 0.8);
+}
+
+.hero-section {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.header-section, h6{
+    margin-top: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+
+.easy-gym{
+    display: flex;
+    
+}
+
+.easy {
+   descent-override: flex;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.gym-color{
+    margin-left: 33px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ed563b;
+    letter-spacing: 1px;
+}
+
+.btn-link {
+   
+    font-size: 1.5rem;
+    padding: 20px 25px;
+    background-color: #ed563b; 
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+a{
+    text-decoration: none !important;
+    color: white;
+}
+
+
