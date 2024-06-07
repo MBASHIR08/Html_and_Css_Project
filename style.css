@@ -302,9 +302,10 @@ line-height: 50px;
 
 .third-section{
     width: 99%;
-    margin: 400px auto;
+    margin: 0 auto;
+    margin-top: 400px;
      max-height: 100vh;
-    height: 50vh;
+    height: 80vh;
     background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg');
 
   
@@ -319,9 +320,10 @@ line-height: 50px;
     justify-content: center;
     text-align: center;
     width: 70%;
-    margin: 400px auto;
+    margin: 0 auto;
+    margin-top: 400px;
    padding: 20px;
-    height: 50vh;
+    height: 80vh;
    line-height: 40px;
 
  
@@ -347,3 +349,147 @@ line-height: 50px;
 
 }
 
+
+
+
+/* here section four started */
+
+
+.section-four{
+   
+   position: relative;
+   top: 200px;
+    width: 60%;
+    margin: 0px auto;
+      display: flex;
+      flex-direction: column;
+ text-align: center;
+ align-items: center; 
+ justify-content: center;
+ font-size: 30px;
+ line-height: 50px;  
+ 
+ }
+ 
+ .program{
+     display: flex;
+    gap: 20px;
+   
+ }
+ 
+ .section-four img {
+     width: 90px;
+   
+     margin-bottom: 30px;
+    
+ 
+ }
+ 
+ .section-four h1{
+     margin-bottom: 30px;
+     font-size: 3rem;
+     text-transform: uppercase;
+     font-weight: 800;
+     letter-spacing: 1px;
+ }
+ 
+ .section-features span{
+  
+     font-size: 1.5rem;
+
+     margin-bottom: 100px;
+ }
+
+
+.grid-section-four{
+    position: relative;
+    top: 300px;
+    margin: 0 auto;
+    width: 80%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    
+   
+}
+
+.training-box{
+ width: 100%;
+    display: flex;
+    flex-direction: column;
+   gap: 40px;
+  
+ 
+}
+
+.boxes{
+    display: flex;
+   font-size: 1.3rem;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow:  2px 4px 8px 3px rgba(0,0,0,0.1);
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.btn-box{
+     background-color: #ed563b;
+     width: 100%;
+    padding: 40px 60px;
+     color: white;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     font-size: 1rem;
+     border-radius: 10px;
+   font-weight: 400;
+     margin-bottom: 100px;
+     
+}
+
+.training-box img{
+    max-width: 90px;
+    height: 90px;
+}
+
+.training-class{
+    margin-left: 40px;
+    grid-column: 2 / span 3;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+    width: 100%;
+    
+}
+.training-class h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.training-class p{
+    font-size: 1.3rem;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+
+.training-class img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn-box2{
+
+    background-color: #ed563b;
+    width: 30%;
+   padding: 30px 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+
+}
