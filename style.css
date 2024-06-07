@@ -11,21 +11,29 @@ body {
 }
 
 .container {
-   width: 100%;
-    height: 80px;
-  background: rgba(94, 102, 111, 0.3);
+   width: 99%;
+   margin: 0 auto;
+    height: 100vh;
+
   z-index: 111111;
 }
 
+.video{
+    width: 99%;
+    margin: 0 auto;
+     height: 100vh;
+    
+}
 
- #bg-video {
+
+#bg-video {
+   min-width: 100%;
+  min-height: 100vh; 
+  max-width: 99%;
+  margin: 0 auto;
+  height: 100vh; 
+   object-fit: cover;
    
-  position: fixed;
-  min-width: 100%;
-  min-height: 100vh;
-  max-width: 100%;
-  max-height: 100vh;
-  object-fit: cover;
   z-index: -1;
 }
 .header-section {
@@ -98,43 +106,60 @@ top: 0px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 
-.header-section, h6{
+.hero-section h6{
+   
     margin-top: 0;
+   
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 800;
     color: white;
     letter-spacing: 0.5px;
+  
 }
 
 
 .easy-gym{
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+    font-size: 7rem;
+    font-weight: 800;
+   
 }
 
-h2{
+.hero-section .easy {
   display: flex;
   margin-top: 30px;
-  margin-bottom: 25px;
-  font-size: 8rem;
+  margin-bottom: 20px;
+  font-size: 7rem;
   text-transform: uppercase;
   font-weight: 800;
   color: #fff;
   letter-spacing: 1px;
+  
 }
+.hero-section .easy2 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ed563b;
+    letter-spacing: 1px;
+    
+  }
 
-h2{
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-}
+
 
 .btn-link {
-   
+    margin-top: 20px;
     font-size: 1.5rem;
     padding: 20px 25px;
     background-color: #ed563b; 
@@ -153,11 +178,8 @@ a{
 .section-features{
 
      position: relative;
-     
-     width: 100%;
-     height: 100vh;
-     top: 900px;
-    background-color: rebeccapurple;
+     top: 100px;
+    background-color: rgb(254, 254, 254);
 }
 
 
