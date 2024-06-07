@@ -279,6 +279,7 @@ line-height: 50px;
     display: flex;
     flex-direction: row;
     gap: 40px;
+    
    
 }
 
@@ -298,4 +299,51 @@ line-height: 50px;
     text-decoration: none;
 }
 
+
+.third-section{
+    width: 99%;
+    margin: 400px auto;
+     max-height: 100vh;
+    height: 50vh;
+    background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg');
+
+  
+}
+
+.third-subsection{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin: 400px auto;
+   padding: 20px;
+    height: 50vh;
+   line-height: 40px;
+
+ 
+}
+
+.think-colors{
+    display: flex;
+   gap: 10px;
+   font-size: 1.5rem;
+   font-weight: 800;
+}
+
+.line-qoraal{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.btn-link2{
+    background-color: #ed563b;
+    color: white;
+    font-size: 1.7rem;
+    padding: 20px 30px;
+
+}
 
