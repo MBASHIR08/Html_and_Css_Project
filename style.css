@@ -18,17 +18,10 @@ img{
    
 }
 .container {
-    
    width: 99%;
    margin: 0 auto;
-   
     max-height: 100vh;
- 
 }
-
-
-
-
  #bg-video {
   margin-top: 10px;
    min-width: 100%;
@@ -41,10 +34,10 @@ img{
  
 }
 .header-section {
-    width: 99%;
-    height: 100vh;
+  width: 99%;
+  height: 100vh;
   position: absolute;
-top: 10px;
+  top: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -52,7 +45,6 @@ top: 10px;
   background-attachment: fixed;
   color: white;
   height: 125px;
-
   z-index: 1111;
 
 }
@@ -68,7 +60,7 @@ top: 10px;
 }
 .header-section ul li a {
   text-decoration: none;
-  margin: 0px 40px;
+  margin: 0px 30px;
   color: white;
   font-weight: 400;
   font-size: 20px;
@@ -79,25 +71,26 @@ top: 10px;
    
 }
 
-.SignUp a {
+.SignUp {
   text-decoration: none;
   background-color: #ed563b;
-  margin-right: 110px;
-  padding: 23px 33px;
+  margin-right: 90px;
+  padding: 23px 40px;
  
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 400;
-
-
 }
+
+
+
 
 
 .SignUp a:hover {
   
   color:  #ec7560;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
   transition: all 0.3s;
 
 }
@@ -134,8 +127,6 @@ top: 10px;
   transform: translate(-50%, -50%);
   
 }
-
-
 
 .hero-section h6{
    
@@ -183,51 +174,21 @@ top: 10px;
     
   } 
 
+  .btn-link{
+    text-decoration: none;
+    background-color: #ed563b;
+    color: white;
+   
+    padding: 20px 30px;
 
-
-/* .btn-link {
-    margin-top: 20px;
-    font-size: 1.5rem;
-    padding: 20px 25px;
-    background-color: #ed563b; 
-    text-align: center;
-    font-weight: 400;
-    text-transform: uppercase;
-    transition: all .3s;
 }
 
 a{
-    text-decoration: none !important;
-    color: white;
-}
-
-
-
-
-.home-color{
-    color: #ed563b !important;
-   
-}
-
-.SignUp {
-  background-color: #ed563b;
-  margin-right: 140px;
-  padding: 20px 30px;
-  border: none;
+  text-decoration: none;
   color: white;
-  font-size: 16px;
-  font-weight: bold;
-
 }
 
-.logo {
-  margin-left: 50px;
-  font-size: 3rem;
-  font-weight: 800;
-}
-.logo2 {
-  color: #ed563b;
-} */
+
 
 
 .container2{
@@ -508,5 +469,213 @@ line-height: 50px;
     align-items: center;
     justify-content: center;
     font-size: 14px;
+  margin-bottom: 100px;
+}
+
+.yogo-section{
+position: relative;
+  top: 700px;
+  width: 99%;
+   margin: 0 auto;
+   
+  height: 150vh;
+   background: white;
+
+  background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg');
+  background-position: cover;
+
+  margin-bottom: 800px;
+}
+
+.days{
+  position: relative;
+top: 60px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 100px;
+}
+
+table {
+  
+  width: 60%;
+  border-collapse: collapse;
+  
 
 }
+
+table,tr,td{  
+  border: 1px solid white;
+text-align: center;
+margin: 0 auto;
+}
+
+td{
+  text-align: center;
+  line-height: 120px;
+  color: white;
+}
+
+.grid-trainers{
+  position: relative;
+  top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.three-boxes{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  padding: 50px;
+  gap: 30px;
+
+  box-shadow: 2px 4px 12px 2px rgba(183, 183, 183, 0.7);
+
+
+}
+
+.three-boxes img{
+  width: 600px;
+  height:300px;
+}
+
+.three-boxes p{
+  line-height: 40px;
+  font-size: 1rem;
+  
+}
+
+ ul{
+
+  display: flex;
+  gap: 30px;
+ 
+  
+  
+}
+
+ul li{
+ list-style-type: none;
+  text-align: center;
+}
+
+.social-media i{
+  
+  display: flex;
+  gap: 20px;
+  color: black;
+  font-size: 24px;
+
+ padding-bottom: 20px;
+}
+
+
+
+.map-section{
+  display: flex;
+  background-color: #ec7560;
+  position: relative;
+  top: 200px;  
+  width: 99%;
+  margin: 0 auto;
+  height: 100vh;
+
+  margin-bottom: 200px;
+  
+}
+
+.form-section {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ 
+  background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg');
+  padding: 100px;
+
+}
+
+.map-image{
+  width: 100%;
+  height: 100vh;
+}
+
+form{
+  gap: 50px;
+  align-items: self-start;
+  padding: 30px;
+  width: 100%; 
+  height: 100vh;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.sec1{
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 50px;
+  
+  display: flex;
+  width: 100%;
+}
+
+.sec1 input{
+  width: 100%;
+  padding: 20px;
+}
+
+.sec2 input{
+  padding: 20px;
+  margin-bottom: 40px;
+  height: 50px;
+  display: flex;
+  width: 100%;
+ 
+}
+
+.sec3 input{
+ 
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 250px;
+
+  width: 100%;
+  
+}
+.sec3{
+  width: 100%;
+  margin-bottom: 40px;
+}
+.btn{
+  border: none;
+  width: 150px;
+  padding:15px 20px;
+  background-color: #ed563b;
+  color: #fff;
+}
+
+.footer{
+  width: 99%;
+height: 150px;
+  margin: 0 auto;
+  display: flex;
+ gap: 10px;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ font-size:1rem;
+
+}
+
