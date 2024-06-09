@@ -9,14 +9,26 @@
 </head>
 <body>
 <div class="container">
+    <div class="logo-mobile">
+        <span id="logo1">TRANING</span>
+        <span class="logo2">STUDIO</span>
+       </div>
     <video autoplay="" muted="" loop="" id="bg-video">
+
         <source src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/gym-video.mp4" type="video/mp4">
     </video>
+    <div class="hamburger">
+        <i class="fa-solid fa-bars-staggered" data-visible="true"></i>
+        <i class="fa-solid fa-xmark" data-visible="false"></i>
+    </div>
+    
     <nav class="header-section">
+      
        <div class="logo">
         <span id="logo1">TRANING</span>
         <span class="logo2">STUDIO</span>
        </div>
+    
       <ul>
         <li><a class="home-color" href="#">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
@@ -27,15 +39,37 @@
       </ul>
           <div class="SignUp" ><a  href="#">SIGN UP</a></div>
     </nav>
+     
+
+
+    <nav class="mobile-menu">
+       
+        
+       <ul>
+         <li><a class="home-color" href="#">HOME</a></li>
+         <li><a href="#">ABOUT</a></li>
+         <li><a href="#">CLASSES</a></li>
+         <li><a href="#">SCHEDULES</a></li>
+         <li><a href="#">CONTACT</a></li>
+         
+       </ul>
+           <div class="SignUp" ><a  href="#">SIGN UP</a></div>
+     </nav>
 
     
 
     <div class="content-section">
+        <video autoplay="" muted="" loop="" id="bg-video2">
+
+            <source src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/gym-video.mp4" type="video/mp4">
+        </video>
         <div class="hero-section">
             <h6>WORK HARDER, GET STRONGER</h6>
        <div class="easy-gym">
-            <span class="easy">EASY WITH OUR </span>
-            <span class="easy2">gym </span>
+            <h1>EASY</h1>
+            <h1>WITH</h1>
+            <h1>OUR</h1>
+            <h1 style="color: #ed563b;">GYM</h1>
         </div>
     
           <div class="btn-link">
@@ -114,11 +148,16 @@
 
         <div class="third-subsection">
         <div class="think-colors">
+            <div class="think">
                 <h1 style="color: white;">DON’T</h1>
                 <h1 style="color: #ed563b;">THINK,</h1>
+                <h1 style="color: #ffffff;">,</h1>
+            </div>
+            <div class="h1colors">
                 <h1 style="color: white;">BEGIN</h1>
                 <h1 style="color: #ed563b;">TODAY</h1>
-                <h1 style="color: #ed563b;">!</h1>
+                <h1 style="color: #fafafa;">!</h1>
+            </div>
     </div>
         <div class="line-qoraal">
             <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
@@ -189,15 +228,19 @@
         </div>
 
     <div class="days">
-        <h3>Monday  </h3>
+        <div class="three-days">
+        <h3 style="color: #ed563b;">Monday  </h3>
         <h1>/</h1>
         <h3>Tuesday </h3>
         <h1>/</h1>
         <h3>Wednesday</h3>
+    </div>
+    <div class="two-days">
         <h1>/</h1>
         <h3>Thursday</h3>
         <h1>/</h1>
         <h3>Friday</h3>
+    </div>
         
     </div>
 
@@ -295,16 +338,38 @@
         </div>
         <button class="btn">Send Message</button>
          </form>
-        
-
 
     </div>
    </div>
    <div class="footer">
-    <p>Copyright © 2020 Training Studio - Designed by </p>
+    <p>Copyright © 2024 Training Studio - Designed by </p>
     <p style="color: #ed563b;">Mohamed Bashir</p>
    </div>
 </div>
+
+
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector(".mobile-menu");
+    const icons = document.querySelectorAll("i");
+
+    hamburger.addEventListener("click", function (event) {
+        const isVisible = mobileMenu.getAttribute('data-visible');
+        if (isVisible == "true") {
+            // qari hiding
+            mobileMenu.setAttribute('data-visible', "false");
+            icons[0].setAttribute('data-visible', "true");
+            icons[1].setAttribute('data-visible', "false");
+        } else if (isVisible == "false") {
+            // soo bandhig showing
+            mobileMenu.setAttribute('data-visible', "true");
+            icons[0].setAttribute('data-visible', "false");
+            icons[1].setAttribute('data-visible', "true");
+        }
+    });
+
+
+</script>
     
 </body>
 </html>
