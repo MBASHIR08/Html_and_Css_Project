@@ -689,6 +689,14 @@ height: 150px;
 }
 
 
+.hamburger{
+  display: none;
+}
+.hamburger i{
+  font-size: 1.7rem;
+  color: black;
+  z-index: 11111;
+}
 
 
 
@@ -698,16 +706,16 @@ height: 150px;
 /* tablet and mobile phones -------------------------------------------------------------*/
 /* tablet and mobile phones -------------------------------------------------------------*/
 /* tablet and mobile phones -------------------------------------------------------------*/
-@media(max-width: 768px){
+@media(max-width: 900px){
   
  
   .header-section{
     display: none;
   }
-  .menu-bar{
-    display: none;
-  }
   
+ 
+
+
 
 
   .mobile-menu[data-visible="false"] {
@@ -748,7 +756,7 @@ height: 150px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-color: #5f6ad4;
+    /* background-color: #5f6ad4; */
     color: white;
     /* padding: 15px; */
     width: 50px;
@@ -858,7 +866,7 @@ a{
    z-index: -1;
 }
   .container{
-    
+    display: flex;
     width: 100%;
     height: 100vh;
   }
@@ -1299,19 +1307,19 @@ margin: 0 auto;
 
 .form-section {
   position: relative;
-  top: 170px;
+  top: 180px;
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 95vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
  
   background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg');
-  padding: 40px;
-  
+  padding: 50px;
+  margin-bottom: 200px;
 
 }
 
@@ -1321,15 +1329,17 @@ margin: 0 auto;
 }
 
 form{
-margin-top: 200px;
+margin-top: 280px;
   gap: 50px;
-  align-items: self-start;
+  align-items: center;
+  justify-content: center;
   padding: 30px;
   width: 100%; 
   height: 90vh;
   background-color: #fff;
   border-radius: 10px;
-  margin-bottom: 250px;
+  margin-bottom: 300px;
+ 
 }
 
 .sec1{
@@ -1403,7 +1413,3 @@ height: 100px;
 
 }
 
-
-@media (min-with: 768px) {
-  
-}
